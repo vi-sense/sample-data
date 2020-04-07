@@ -1,6 +1,6 @@
 # visense
 
-3D visualization for IoT data for metr.systems
+visense is a project of the University of Applied Sciences (HTW) Berlin and metr.systems to visualize IoT data in BIM Models.
 
 this repo contains sample data for the visense project, consisting of 3D gltf models and sensor data.
 
