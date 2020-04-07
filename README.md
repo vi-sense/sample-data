@@ -1,4 +1,4 @@
-# visense
+# vi-sense
 
 vi-sense is a project of the University of Applied Sciences (HTW) Berlin and metr.systems to visualize IoT data in BIM Models.
 
