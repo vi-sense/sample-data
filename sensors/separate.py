@@ -3,12 +3,23 @@ import sys
 import matplotlib.pyplot as plt
 import csv
 
-start_date = 1569888000
-fn = "sensordata_oct_2019.csv"
 data = {}
 keys = []
 
-with open(fn) as f:
+if len(sys.argv) < 4:
+    print("Arguments must be: 'input file' 'output file' 'start date timestamp (unix)' '*show plot (true | false)' ")
+    sys.exit()
+
+input_file = sys.argv[1]
+output_file = sys.argv[2]
+start_date = int(sys.argv[3])
+
+if len(sys.argv) == 5:
+  show_plot = sys.argv[4].lower() == "true"
+else:
+  show_plot = False
+
+with open(input_file) as f:
   last = start_date - 1200 # minus 20 min
   for i, line in enumerate(f):
     s = line.split(',')
@@ -30,26 +41,29 @@ with open(fn) as f:
 
           last = time
 
-# plot_keys = []
-# plot_keys.append(keys[1])
-# plot_keys.append(keys[2])
-# plot_keys.append(keys[3])
-# plot_keys.append(keys[5])
-# plot_keys.append(keys[6])
-# plot_keys.append(keys[8])
-# plot_keys.append(keys[9])
+if show_plot:
+  plot_keys = []
+  plot_keys.append(keys[1])
+  plot_keys.append(keys[2])
+  plot_keys.append(keys[3])
+  plot_keys.append(keys[5])
+  plot_keys.append(keys[6])
+  plot_keys.append(keys[8])
+  plot_keys.append(keys[9])
 
-# for key in plot_keys:
-#   plt.plot(data[keys[0]], data[key], label=key)
+  for key in plot_keys:
+    plt.plot(data[keys[0]], data[key], label=key)
 
-# plt.legend(loc="upper left")
+  plt.legend(loc="upper left")
 
-# plt.grid(True)
-# plt.show()
+  plt.grid(True)
 
 data.pop("VL-RL Diff [K]")
 
-with open("sensor_data.csv", "w") as outfile:
+with open(output_file, "w") as outfile:
    writer = csv.writer(outfile)
    writer.writerow(data.keys())
    writer.writerows(zip(*data.values()))
+   print("file {0} generated".format(output_file))
+
+plt.show()
