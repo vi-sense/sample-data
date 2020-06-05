@@ -11,13 +11,14 @@ The aim of vi-sense is to develop a solution for visualizing IoT sensors and the
 # Cloning
 This repository is set up with [git lfs](https://git-lfs.github.com/).
 
-## new cloning
+### new cloning
 `git lfs install`
+
 `git clone ...`
 
 alternatively
 
 `git lfs clone ...`
 
-## get data afterwards
+### get data afterwards
 `git lfs pull`
