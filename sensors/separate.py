@@ -6,9 +6,9 @@ import csv
 
 data = {}
 keys = []
-directory = "sample_model/"
+directory = "puerto-natales/"
 
-sys.argv.append("raw/sensordata_oct_2019.csv")
+sys.argv.append("raw/puerto-natales_oct-2019.csv")
 sys.argv.append("1569888000")
 sys.argv.append("true")
 
@@ -32,7 +32,7 @@ with open(input_file) as f:
   for i, line in enumerate(f):
     s = line.split(',')
 
-    if len(s) == 10:
+    if len(s) > 0:
       if i == 0:
         for c in s:
           data[c.replace('\n','')] = []
@@ -54,7 +54,6 @@ plot_keys.append(keys[1])
 plot_keys.append(keys[2])
 plot_keys.append(keys[3])
 plot_keys.append(keys[5])
-plot_keys.append(keys[6])
 plot_keys.append(keys[7])
 plot_keys.append(keys[8])
 plot_keys.append(keys[9])
