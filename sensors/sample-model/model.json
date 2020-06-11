@@ -1,0 +1,64 @@
+{
+  "name":        "PGN Model",
+  "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+  "url":         "files/pgn-model/model.zip",
+  "image_url":   "files/pgn-model/thumbnail.png",
+  "sensors" : [
+    {
+      "import_name": "drinking_water_temperature_boiler.csv",
+      "name": "Drinking Water Temperature Boiler",
+      "mesh_id": "30058",
+      "description": "This Drinking Water Temperature Sensor is a probe that measures water temperature from -40° to +70°C. It consists of a thermistor encased in a sheath made from grade 316L stainless steel.",
+      "measurement_unit": "°C"
+    },
+    {
+      "import_name": "drinking_water_temperature_inflow.csv",
+      "name": "Drinking Water Temperature Inflow",
+      "mesh_id": "29608",
+      "description": "This Drinking Water Temperature Sensor is a probe that measures water temperature from -40° to +70°C. It consists of a thermistor encased in a sheath made from grade 316L stainless steel.",
+      "measurement_unit": "°C"
+    },
+    {
+      "import_name": "flow_temperature.csv",
+      "name": "Flow Temperature",
+      "mesh_id": "29632",
+      "description": "This Drinking Water Temperature Sensor is a probe that measures water temperature from -40° to +70°C. It consists of a thermistor encased in a sheath made from grade 316L stainless steel.",
+      "measurement_unit": "°C"
+    },
+    {
+      "import_name": "heating_target_temperature.csv",
+      "name": "Heating Target Temperature",
+      "mesh_id": "29614",
+      "description": "Calibratable room temperature measuring transducer with Modbus connection, in an impact-resistant plastic housing. Designed for higher temperatures.",
+      "measurement_unit": "°C"
+    },
+    {
+      "import_name": "outdoor_temperature.csv",
+      "name": "Outdoor Temperature",
+      "mesh_id": "29660",
+      "description": "This Outdoor Temperature Sensor is a narrow-band, long range, low power consumption, high performance and high quality wireless sensor transmitting temperature from a NTC probe.",
+      "measurement_unit": "°C"
+    },
+    {
+      "import_name": "pressure.csv",
+      "name": "Pressure",
+      "mesh_id": "5417",
+      "description": "Pressure Sensor for water pipe pressure measurement at water distribution utilities.",
+      "measurement_unit": "bar"
+    },
+    {
+      "import_name": "return_flow_temperature.csv",
+      "name": "Return Flow Temperature",
+      "mesh_id": "5411",
+      "description": "Inline Return Flow Temperature Sensor monitors the temperature of a fluid that passes through it. The output values are related to the Thermal Flow Sensor.",
+      "measurement_unit": "°C"
+    },
+    {
+      "import_name": "room_temperature.csv",
+      "name": "Room Temperature",
+      "mesh_id": "",
+      "description": "Calibratable room temperature measuring transducer with Modbus connection, in an impact-resistant plastic housing. Designed for higher temperatures.",
+      "measurement_unit": "°C"
+    }
+  ]
+}

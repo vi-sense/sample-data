@@ -1,0 +1,64 @@
+{
+  "name":        "Facility Mechanical Room",
+  "description": "This model shows a facility mechanical room with lots of pipes and stuff.",
+  "url":         "files/facility-mechanical-room/model.zip",
+  "image_url":   "files/facility-mechanical-room/thumbnail.png",
+  "sensors" : [
+    {
+      "import_name": "boiler_heating_temperature.csv",
+      "name": "Boiler Heating Temperature",
+      "mesh_id": "vent1",
+      "description": "Calibratable room temperature measuring transducer with Modbus connection, in an impact-resistant plastic housing. Designed for higher temperatures.",
+      "measurement_unit": "°C"
+    },
+    {
+      "import_name": "drinking_water_temperature_boiler.csv",
+      "name": "Drinking Water Temperature Boiler",
+      "mesh_id": "valve7",
+      "description": "This Drinking Water Temperature Sensor is a probe that measures water temperature from -40° to +70°C. It consists of a thermistor encased in a sheath made from grade 316L stainless steel.",
+      "measurement_unit": "°C"
+    },
+    {
+      "import_name": "drinking_water_temperature_house_supply.csv",
+      "name": "Drinking Water Temperature House Supply",
+      "mesh_id": "valve8",
+      "description": "This Drinking Water Temperature Sensor is a probe that measures water temperature from -40° to +70°C. It consists of a thermistor encased in a sheath made from grade 316L stainless steel.",
+      "measurement_unit": "°C"
+    },
+    {
+      "import_name": "flow_temperature.csv",
+      "name": "Flow Temperature",
+      "mesh_id": "valve5",
+      "description": "Inline Flow-Through Temperature Sensor monitors the temperature of a fluid that passes through it where a system control module receives this temperature reading and uses a control loop to control the overall system temperature.",
+      "measurement_unit": "°C"
+    },
+    {
+      "import_name": "outdoor_temperature.csv",
+      "name": "Outdoor Temperature",
+      "mesh_id": "tank1",
+      "description": "This Outdoor Temperature Sensor is a narrow-band, long range, low power consumption, high performance and high quality wireless sensor transmitting temperature from a NTC probe.",
+      "measurement_unit": "°C"
+    },
+    {
+      "import_name": "pressure.csv",
+      "name": "Pressure",
+      "mesh_id": "pump1",
+      "description": "Pressure Sensor for water pipe pressure measurement at water distribution utilities.",
+      "measurement_unit": "bar"
+    },
+    {
+      "import_name": "return_flow_temperature.csv",
+      "name": "Return Flow Temperature",
+      "mesh_id": "pump2",
+      "description": "Inline Return Flow Temperature Sensor monitors the temperature of a fluid that passes through it. The output values are related to the Thermal Flow Sensor.",
+      "measurement_unit": "°C"
+    },
+    {
+      "import_name": "room_temperature.csv",
+      "name": "Room Temperature",
+      "mesh_id": "",
+      "description": "Calibratable room temperature measuring transducer with Modbus connection, in an impact-resistant plastic housing. Designed for higher temperatures.",
+      "measurement_unit": "°C"
+    }
+  ]
+}
