@@ -1,7 +1,7 @@
 {
   "name":        "Facility Mechanical Room",
   "description": "This model shows a facility mechanical room with lots of pipes and stuff.",
-  "url":         "files/facility-mechanical-room/model.zip",
+  "url":         "files/facility-mechanical-room/scene.gltf",
   "image_url":   "files/facility-mechanical-room/thumbnail.png",
   "sensors" : [
     {

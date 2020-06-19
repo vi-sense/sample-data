@@ -1,7 +1,7 @@
 {
   "name":        "PGN Model",
   "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-  "url":         "files/pgn-model/model.zip",
+  "url":         "files/pgn-model/scene.gltf",
   "image_url":   "files/pgn-model/thumbnail.png",
   "sensors" : [
     {
