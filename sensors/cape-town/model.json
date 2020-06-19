@@ -1,7 +1,7 @@
 {
   "name":        "MEP Building Model",
   "description": "This model shows a MEP building with two floors and pipes.",
-  "url":         "files/mep-building-model/model.zip",
+  "url":         "files/mep-building-model/scene.gltf",
   "image_url":   "files/mep-building-model/thumbnail.png",
   "sensors" : [
     {
