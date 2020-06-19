@@ -1,7 +1,7 @@
 {
   "name":        "Overhead MEP Installation",
   "description": "This model shows a overhead MEP installation. To make things look better this model has a longer description. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-  "url":         "files/overhead-mep-installation/model.zip",
+  "url":         "files/overhead-mep-installation/scene.gltf",
   "image_url":   "files/overhead-mep-installation/thumbnail.png",
   "sensors" : [
     {
