@@ -1,57 +1,66 @@
 {
-  "name":        "Overhead MEP Installation",
-  "description": "This model shows a overhead MEP installation. To make things look better this model has a longer description. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-  "url":         "files/overhead-mep-installation/scene.gltf",
-  "image_url":   "files/overhead-mep-installation/thumbnail.png",
+  "name":        "Housing Complex, Puerto Natales",
+  "url":         "files/puerto-natales/pgn-model.gltf",
+  "image_url":   "files/puerto-natales/thumbnail.png",
+  "type":        "Full Housing Complex",
+  "location":    "Tomás Rogers 57, Puerto Natales, Chile",
+  "floors":      6,
   "sensors" : [
     {
       "import_name": "boiler_heating_temperature.csv",
       "name": "Boiler Heating Temperature",
-      "mesh_id": "1883",
-      "description": "Calibratable room temperature measuring transducer with Modbus connection, in an impact-resistant plastic housing. Designed for higher temperatures.",
-      "measurement_unit": "°C"
+      "mesh_id": "",
+      "description": "Calibratable room temperature measuring transducer with Modbus connection, in an impact-resistant plastic housing for higher temperatures.",
+      "measurement_unit": "°C",
+      "range": "-40 - 300"
     },
     {
       "import_name": "drinking_water_temperature_boiler.csv",
       "name": "Drinking Water Temperature Boiler",
-      "mesh_id": "1887",
-      "description": "This Drinking Water Temperature Sensor is a probe that measures water temperature from -40° to +70°C. It consists of a thermistor encased in a sheath made from grade 316L stainless steel.",
-      "measurement_unit": "°C"
+      "mesh_id": "",
+      "description": "Probe that measures water temperature from -40° to +70°C. Consists of a thermistor encased in a sheath made from grade 316L stainless steel.",
+      "measurement_unit": "°C",
+      "range": "-40 - 125"
     },
     {
       "import_name": "flow_temperature.csv",
       "name": "Flow Temperature",
-      "mesh_id": "9673",
-      "description": "This Drinking Water Temperature Sensor is a probe that measures water temperature from -40° to +70°C. It consists of a thermistor encased in a sheath made from grade 316L stainless steel.",
-      "measurement_unit": "°C"
+      "mesh_id": "",
+      "description": "Inline Flow Temperature Sensor monitors the temperature of a fluid that passes through it.",
+      "measurement_unit": "°C",
+      "range": "-40 - 150"
     },
     {
       "import_name": "outdoor_temperature.csv",
       "name": "Outdoor Temperature",
-      "mesh_id": "10147",
-      "description": "This Outdoor Temperature Sensor is a narrow-band, long range, low power consumption, high performance and high quality wireless sensor transmitting temperature from a NTC probe.",
-      "measurement_unit": "°C"
+      "mesh_id": "",
+      "description": "Narrow-band, long range and low power consumption wireless sensor transmitting temperature from a NTC probe.",
+      "measurement_unit": "°C",
+      "range": "-40 - 100"
     },
     {
       "import_name": "pressure.csv",
       "name": "Pressure",
       "mesh_id": "",
       "description": "Pressure Sensor for water pipe pressure measurement at water distribution utilities.",
-      "measurement_unit": "bar"
+      "measurement_unit": "bar",
+      "range": "0 - 200"
     },
     {
       "import_name": "return_flow_temperature.csv",
       "name": "Return Flow Temperature",
       "mesh_id": "",
-      "description": "Inline Return Flow Temperature Sensor monitors the temperature of a fluid that passes through it. The output values are related to the Thermal Flow Sensor.",
-      "measurement_unit": "°C"
+      "description": "Inline Return Flow Temperature Sensor monitors the temperature of a fluid that passes through it. Output values are related to the Flow Temperature Sensor.",
+      "measurement_unit": "°C",
+      "range": "-40 - 150"
     },
     {
       "import_name": "room_temperature.csv",
       "name": "Room Temperature",
       "mesh_id": "",
-      "description": "Calibratable room temperature measuring transducer with Modbus connection, in an impact-resistant plastic housing. Designed for higher temperatures.",
-      "measurement_unit": "°C"
+      "description": "Calibratable room temperature measuring transducer with Modbus connection, in an impact-resistant plastic housing for higher temperatures.",
+      "measurement_unit": "°C",
+      "range": "-40 - 100"
     }
   ]
 }
