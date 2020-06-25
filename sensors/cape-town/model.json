@@ -1,57 +1,66 @@
 {
-  "name":        "MEP Building Model",
-  "description": "This model shows a MEP building with two floors and pipes.",
-  "url":         "files/mep-building-model/scene.gltf",
-  "image_url":   "files/mep-building-model/thumbnail.png",
+  "name":        "Mechanical Room, Cape Town",
+  "url":         "files/cape-town/facility-mechanical-room.gltf",
+  "image_url":   "files/cape-town/thumbnail.png",
+  "type":        "Mechanical Room Apartment Complex",
+  "location":    "68 Adderley St, 8000 Cape Town, South Africa",
+  "floors":      1,
   "sensors" : [
     {
       "import_name": "boiler_heating_temperature.csv",
       "name": "Boiler Heating Temperature",
-      "mesh_id": "node13",
-      "description": "Calibratable room temperature measuring transducer with Modbus connection, in an impact-resistant plastic housing. Designed for higher temperatures.",
-      "measurement_unit": "°C"
+      "mesh_id": "",
+      "description": "Calibratable room temperature measuring transducer with Modbus connection, in an impact-resistant plastic housing for higher temperatures.",
+      "measurement_unit": "°C",
+      "range": "-40 - 300"
     },
     {
       "import_name": "flow_temperature_boiler.csv",
       "name": "Flow Temperature Boiler",
-      "mesh_id": "node11",
-      "description": "This Drinking Water Temperature Sensor is a probe that measures water temperature from -40° to +70°C. It consists of a thermistor encased in a sheath made from grade 316L stainless steel.",
-      "measurement_unit": "°C"
+      "mesh_id": "",
+      "description": "Inline Flow Temperature Sensor monitors the temperature of a fluid that passes through it.",
+      "measurement_unit": "°C",
+      "range": "-40 - 150"
     },
     {      
       "import_name": "flow_temperature.csv",
       "name": "Flow Temperature",
-      "mesh_id": "node14",
-      "description": "Inline Flow-Through Temperature Sensor monitors the temperature of a fluid that passes through it where a system control module receives this temperature reading and uses a control loop to control the overall system temperature.",
-      "measurement_unit": "°C"
+      "mesh_id": "",
+      "description": "Inline Flow Temperature Sensor monitors the temperature of a fluid that passes through it.",
+      "measurement_unit": "°C",
+      "range": "-40 - 150"
     },
     {
       "import_name": "outdoor_temperature.csv",
       "name": "Outdoor Temperature",
-      "mesh_id": "node8",
-      "description": "This Outdoor Temperature Sensor is a narrow-band, long range, low power consumption, high performance and high quality wireless sensor transmitting temperature from a NTC probe.",
-      "measurement_unit": "°C"
+      "mesh_id": "",
+      "description": "Narrow-band, long range and low power consumption wireless sensor transmitting temperature from a NTC probe.",
+      "measurement_unit": "°C",
+      "range": "-40 - 100"
     },
     {
       "import_name": "return_flow_temperature_boiler.csv",
       "name": "Return Flow Temperature Boiler",
       "mesh_id": "",
-      "description": "Inline Return Flow Temperature Sensor monitors the temperature of a fluid that passes through it. The output values are related to the Thermal Flow Sensor.",
-      "measurement_unit": "°C"
+      "description": "Inline Return Flow Temperature Sensor monitors the temperature of a fluid that passes through it. Output values are related to the Flow Temperature Boiler Sensor.",
+      "measurement_unit": "°C",
+      "range": "-40 - 150"
     },
     {
       "import_name": "return_flow_temperature.csv",
       "name": "Return Flow Temperature",
       "mesh_id": "",
-      "description": "Inline Return Flow Temperature Sensor monitors the temperature of a fluid that passes through it. The output values are related to the Thermal Flow Sensor.",
-      "measurement_unit": "°C"
+      "description": "Inline Return Flow Temperature Sensor monitors the temperature of a fluid that passes through it. Output values are related to the Flow Temperature Sensor.",
+      "measurement_unit": "°C",
+      "range": "-40 - 150"
     },
     {
       "import_name": "room_temperature.csv",
       "name": "Room Temperature",
       "mesh_id": "",
-      "description": "Calibratable room temperature measuring transducer with Modbus connection, in an impact-resistant plastic housing. Designed for higher temperatures.",
-      "measurement_unit": "°C"
+      "description": "Calibratable room temperature measuring transducer with Modbus connection, in an impact-resistant plastic housing for higher temperatures.",
+      "measurement_unit": "°C",
+      "range": "-40 - 100"
     }
   ]
 }
