@@ -9,7 +9,7 @@
     {
       "import_name": "boiler_heating_temperature.csv",
       "name": "Boiler Heating Temperature",
-      "mesh_id": "",
+      "mesh_id": null,
       "description": "Calibratable room temperature measuring transducer with Modbus connection, in an impact-resistant plastic housing for higher temperatures.",
       "measurement_unit": "°C",
       "range": "-40 - 300"
@@ -17,7 +17,7 @@
     {
       "import_name": "flow_temperature_boiler.csv",
       "name": "Flow Temperature Boiler",
-      "mesh_id": "",
+      "mesh_id": null,
       "description": "Inline Flow Temperature Sensor monitors the temperature of a fluid that passes through it.",
       "measurement_unit": "°C",
       "range": "-40 - 150"
@@ -25,7 +25,7 @@
     {      
       "import_name": "flow_temperature.csv",
       "name": "Flow Temperature",
-      "mesh_id": "",
+      "mesh_id": null,
       "description": "Inline Flow Temperature Sensor monitors the temperature of a fluid that passes through it.",
       "measurement_unit": "°C",
       "range": "-40 - 150"
@@ -33,7 +33,7 @@
     {
       "import_name": "outdoor_temperature.csv",
       "name": "Outdoor Temperature",
-      "mesh_id": "",
+      "mesh_id": null,
       "description": "Narrow-band, long range and low power consumption wireless sensor transmitting temperature from a NTC probe.",
       "measurement_unit": "°C",
       "range": "-40 - 100"
@@ -41,7 +41,7 @@
     {
       "import_name": "return_flow_temperature_boiler.csv",
       "name": "Return Flow Temperature Boiler",
-      "mesh_id": "",
+      "mesh_id": null,
       "description": "Inline Return Flow Temperature Sensor monitors the temperature of a fluid that passes through it. Output values are related to the Flow Temperature Boiler Sensor.",
       "measurement_unit": "°C",
       "range": "-40 - 150"
@@ -49,7 +49,7 @@
     {
       "import_name": "return_flow_temperature.csv",
       "name": "Return Flow Temperature",
-      "mesh_id": "",
+      "mesh_id": null,
       "description": "Inline Return Flow Temperature Sensor monitors the temperature of a fluid that passes through it. Output values are related to the Flow Temperature Sensor.",
       "measurement_unit": "°C",
       "range": "-40 - 150"
@@ -57,7 +57,7 @@
     {
       "import_name": "room_temperature.csv",
       "name": "Room Temperature",
-      "mesh_id": "",
+      "mesh_id": null,
       "description": "Calibratable room temperature measuring transducer with Modbus connection, in an impact-resistant plastic housing for higher temperatures.",
       "measurement_unit": "°C",
       "range": "-40 - 100"
