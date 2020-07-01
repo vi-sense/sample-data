@@ -1,11 +1,15 @@
 {
-  "name":        "Housing Complex, Puerto Natales",
-  "url":         "files/puerto-natales/pgn-model.gltf",
-  "image_url":   "files/puerto-natales/thumbnail.png",
-  "type":        "Full Housing Complex",
-  "location":    "Tomás Rogers 57, Puerto Natales, Chile",
-  "floors":      6,
-  "sensors" : [
+  "name": "Housing Complex, Puerto Natales",
+  "url": "files/puerto-natales/pgn-model.gltf",
+  "image_url": "files/puerto-natales/thumbnail.png",
+  "type": "Full Housing Complex",
+  "location": {
+    "address": "Tomás Rogers 57, Puerto Natales, Chile",
+    "latitude": -51.725260,
+    "longitude": -72.507820
+  },
+  "floors": 6,
+  "sensors": [
     {
       "import_name": "boiler_heating_temperature.csv",
       "name": "Boiler Heating Temperature",

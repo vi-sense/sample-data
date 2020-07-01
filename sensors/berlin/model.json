@@ -1,11 +1,15 @@
 {
-  "name":        "Office Building, Berlin",
-  "url":         "files/berlin/office-model.gltf",
-  "image_url":   "files/berlin/thumbnail.png",
-  "type":        "Office",
-  "location":    "Bachstraße 12, 10555 Berlin, Germany",
-  "floors":      3,
-  "sensors" : [
+  "name": "Office Building, Berlin",
+  "url": "files/berlin/office-model.gltf",
+  "image_url": "files/berlin/thumbnail.png",
+  "type": "Office",
+  "location": {
+    "address": "Bachstraße 12, 10555 Berlin, Germany",
+    "latitude": 52.516780,
+    "longitude": 13.338340
+  },
+  "floors": 3,
+  "sensors": [
     {
       "import_name": "boiler_heating_temperature.csv",
       "name": "Boiler Heating Temperature",
